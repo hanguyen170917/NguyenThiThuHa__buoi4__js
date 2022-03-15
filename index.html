@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bài tập JS buổi 4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- BÀI 1: SẮP XẾP THEO THỨ TỰ TĂNG DẦN -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>BÀI 1</h1>
+          <div class="card">
+            <div class="card-header">Xuất 3 số theo thứ tự tăng dần</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Nhập số thứ nhất</label>
+                <input type="text" id="txtsoThuNhat" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Nhập số thứ 2</label>
+                <input type="text" id="txtsoThuHai" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Nhập số thứ 3</label>
+                <input type="text" id="txtsoThuBa" class="form-control" />
+              </div>
+              <button id="btnSapXep" class="btn btn-success">
+                Sắp xếp tăng dần
+              </button>
+            </div>
+            <div id="footerTangDan" class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <hr />
+
+    <!-- BÀI 2: CHƯƠNG TRÌNH CHÀO HỎI -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>BÀI 2</h1>
+          <div class="card">
+            <div class="card-header">Chương trình chào hỏi</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Ai sử dụng máy</label>
+                <input type="text" id="txtaiSuDung" class="form-control" />
+              </div>
+              <button id="btnchaoHoi" class="btn btn-success">
+                Bắt đầu chào
+              </button>
+            </div>
+            <div id="footerchaoHoi" class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <hr />
+
+    <!-- BÀI 3: ĐẾM SỐ LẺ / SỐ CHẴN -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>BÀI 3</h1>
+          <div class="card">
+            <div class="card-header">Đếm số lẻ và số chẵn</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Nhập số thứ nhất</label>
+                <input type="text" id="txtso1" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Nhập số thứ hai</label>
+                <input type="text" id="txtso2" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Nhập số thứ ba</label>
+                <input type="text" id="txtso3" class="form-control" />
+              </div>
+              <button id="btnDem" class="btn btn-success">Đếm</button>
+            </div>
+            <div id="footerDemSoChanLe" class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <hr />
+
+    <!-- BÀI 4: CHO BIẾT TAM GIÁC GÌ -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>BÀI 4</h1>
+          <div class="card">
+            <div class="card-header">Cho biết đó là tam giác gì?</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Nhập giá trị cạnh thứ nhất</label>
+                <input type="text" id="txtcanhThuNhat" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Nhập giá trị cạnh thứ hai</label>
+                <input type="text" id="txtcanhThuHai" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Nhập giá trị cạnh thứ ba</label>
+                <input type="text" id="txtcanhThuBa" class="form-control" />
+              </div>
+              <button id="btnTinh" class="btn btn-success">Tính</button>
+            </div>
+            <div id="footerTamGiac" class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
